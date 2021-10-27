@@ -10,7 +10,7 @@ app.controller("myCtrl", function ($scope, $http) {
 
                 $scope.imgrd[0] = randomimage;
             }
-        } while (randomimage == 0);
+        } while (randomimage != 0);
 
         return $scope.imgrd;
     }
